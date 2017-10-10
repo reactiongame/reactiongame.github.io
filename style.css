@@ -6,11 +6,7 @@ html
   background-repeat: no-repeat; 
   background-size: cover;
 }    
-img {
-
-text-align: center;
-
-}                  
+              
 body
 {
   height: 99%;
@@ -35,6 +31,13 @@ body
   text-align: left;
   border-radius: 5px;
 }
+
+img {
+
+text-align: center;
+
+}    
+
 
 #mainContentArea
 {
