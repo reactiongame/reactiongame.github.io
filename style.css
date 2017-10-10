@@ -1,9 +1,11 @@
-html
-{
-  overflow: hidden;
-  height: 99%;
-  background-color: #BBBBBB;
-}
+html 
+{ 
+  overflow: hidden; 
+  height: 100%; 
+ background-image: url('http://www.powerpointhintergrund.com/uploads/blurry-background-25.jpg');
+  background-repeat: no-repeat; 
+  background-size: cover;
+}    
                          
 body
 {
