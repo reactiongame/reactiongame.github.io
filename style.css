@@ -178,7 +178,7 @@ form {
   text-align:center;
   font-family:Georgia, "Times New Roman", Times, serif;
   position:relative; 
-  bottom:2px;
+  bottom:0px;
   background-color: rgb(231, 237, 248);
   border-radius: 0px 0px 0px 0px;
   }
