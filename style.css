@@ -1,0 +1,217 @@
+html
+{
+  overflow: hidden;
+  height: 99%;
+  background-color: #BBBBBB;
+}
+                         
+body
+{
+  height: 99%;
+  margin: 0;
+  padding: 0;
+  line-height: 150%;
+  text-align: center;
+}
+
+/*button*/
+#input-submit{
+  background-color: #80BE83;
+}
+
+
+/*selects all elements*/
+*
+{
+  font-size: 8pt; 
+  font-family: Tahoma, Verdana, sans-serif; 
+  color: #000000;
+  text-align: left;
+  border-radius: 5px;
+}
+
+#mainContentArea
+{
+  margin: 0 auto 0 auto; 
+  display: table; 
+  height: 100%;  
+  position: relative; 
+  overflow: hidden; 
+  width: 600px;
+}
+
+
+.link,.linkActive
+{
+width:85px;
+margin-right:10px;
+float: left;
+margin-top:24px;
+text-align:center;
+font-family:Georgia, "Times New Roman", Times, serif;
+position:relative; bottom:0px;
+background-color: rgb(231, 237, 248);
+border-radius: 30px 30px 0px 0px;
+}
+
+.link:hover
+{
+  background-color: #8A8A8A;
+}
+
+a
+{
+text-decoration:none;
+}
+
+.link a{
+font-family:Arial, Helvetica, sans-serif;
+font-size:10px;
+font-weight:bold;
+}
+
+#linkGroup
+{
+margin-right:10px;
+height:40px;
+width:600px;
+}
+
+
+@media screen and (min-width: 480px) {
+#title
+{
+width:230px;
+height:40px;
+margin-right:20px;
+margin-top:15px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:20px;
+font-weight:bold;
+text-align:center;
+float:left;
+}
+}
+
+.contentTitle
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:#213E74;
+font-size:24px;
+text-align: center;
+margin-bottom:12px;
+width:573px;
+}
+
+.pageContent
+{
+font-family: Arial, Helvetica, sans-serif;
+color:#000000;
+font-size:12px;
+margin-left:20px;
+margin-right:20px;
+width:560px;
+}
+
+
+#blueBox
+{
+	position: absolute;
+	vertical-align: middle;
+	background-color:rgb(231, 237, 248);
+	width:600px;
+  clear:both;
+  border-radius: 25px;
+}
+
+#contentBox
+{
+margin-top:25px;
+}
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}
+
+
+form {
+   max-width: 600px;
+   text-align: center;
+   margin: 20px auto;
+}
+  
+.half {
+  float: left;
+  width: 48%;
+  margin-bottom: 1em;
+}
+
+.right { width: 50%; }
+
+.left {
+     margin-right: 2%; 
+}
+
+
+/*mobile responsive css*/
+@media screen and (max-width: 480px) {
+
+  #title
+  {
+  width:230px;
+  height:40px;
+  margin-left:70px;
+  margin-top:15px;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:20px;
+  font-weight:bold;
+  }
+
+  .link,.linkActive
+  {
+  width:85px;
+  float: left;
+  margin-top:24px;
+  text-align:center;
+  font-family:Georgia, "Times New Roman", Times, serif;
+  position:relative; bottom:0px;
+  background-color: rgb(231, 237, 248);
+  border-radius: 0px 0px 0px 0px;
+  }
+
+  #blueBox
+  {
+    position: absolute;
+    vertical-align: middle;
+    background-color:rgb(231, 237, 248);
+    width:600px;
+    clear:both;
+    border-radius: 0px;
+  }
+
+  .half {
+    margin-left:20px;
+    margin-top:25px;
+    margin-bottom: 1em;
+    
+  }
+
+    #footer {
+
+      margin-right:340px;
+    }
+
+    .contentTitle
+    {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    color:#213E74;
+    font-size:24px;
+    margin-left: -150px;
+    margin-bottom:12px;
+    width:573px;
+    }
+
+  
+}
+
